@@ -1,0 +1,1701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" a href="prism.css">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" a href="style1.css">
+    <link rel="stylesheet" a href="style2.css">
+    
+    <!-- <link rel="stylesheet" a href="style3.css"> -->
+    <title>Document</title>
+</head>
+<body>
+             <!-- css background -->
+    <!-- <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="lg:w-2/8 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+            <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-white">
+                 -->
+    
+<nav >
+    <span class="  logo" ><img src="img/i2copy.png" alt="image"></span> 
+           
+    <div class="content center">
+                CODES FOR YOU
+    </div>
+</nav>
+
+<div class="container">
+    <ol>
+        <span class=pro>[1] HOVER BUTTON</span>
+        <!-- <span class= "logo4"><img src="i3.png.jpg" alt="image">    </span> -->
+
+
+        <span>
+          <nav>
+            <ul>
+             <li>
+           home
+              <span></span><span></span><span></span><span></span>
+               </li>
+               <li>
+           products
+              <span></span><span></span><span></span><span></span>
+              </li>
+              <li>
+          services
+              <span></span><span></span><span></span><span></span>
+              </li>    
+          
+            </li>
+              </ul>
+              </nav>        
+            
+        </span>
+    
+      
+      
+        <li>- PLEASE CLICK ON ABOVE BUTTON TO SEE HOVER EFFECT. IF YOU WANT TO DESIGN AND HOVER YOUR BUTTON LIKE ABOVE ANIMATION THEN  COPY BELOW HTML AND CSS CODES AND PASTE IN YOUR SITE. 
+        <PRE>  HTML CODE  </PRE>  
+          <pre class="language-html"> <code>
+ &lt;nav&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+ home
+    &lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+     &lt;/li&gt;
+     &lt;li&gt;
+ products
+    &lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+services
+    &lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+contact
+    &lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/nav&gt;        
+           </code></pre>
+        </li>
+        <pre>Css CODE [FIRST HOVER BUTTON]</pre>
+            <pre class="language-css"  ><code>       
+body {
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+     }
+                
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+       }
+                
+nav ul li {
+    --c: goldenrod;
+    color: var(--c);
+     font-size: 16px;
+     border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+     width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+        }
+                
+nav ul li span {
+    position: absolute;
+     width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+              }
+                
+nav ul li:hover {
+    color: black;
+                }
+                
+nav ul li:hover span {
+     transform: translateY(0) scale(2);
+                }
+                
+nav ul li span:nth-child(1) {
+    --n: 1;
+                }
+                
+nav ul li span:nth-child(2) {
+    --n: 2;
+                }
+                
+nav ul li span:nth-child(3) {
+     --n: 3;
+                }
+                
+nav ul li span:nth-child(4) {
+    --n: 4;
+                } 
+            </code>
+            </pre>       
+            <!-- <span class=pro>Image 2  </span> -->
+            <!-- <span class= "logo4"><img src="I4.jpg" alt="image">    </span> -->
+            <!-- <span class=pro>Image 2 ^  </span> -->
+            
+            <span class=pro>[2] DESIGN AND HOVER YOUR BUTTON</span>
+            
+              <div class="butt1">
+                <!-- <a href="##"> -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                 Lightful Button
+               </a>
+               </div>
+              
+               
+              <div class="butt2">
+               <!-- <a href="##"> -->
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                 Lightful Button
+               </a>
+              </div>
+                       
+           
+               <div class="butt3">
+                 <!-- <a href="##1"> -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                   Lightful Button
+                 </a>
+               </div>
+               <li>- IF YOU WANT TO DESIGN AND HOVER YOUR BUTTON LIKE ABOVE ANIMATION THEN COPY BELOW HTML AND CSS CODES AND PASTE IN YOUR SITE.
+                <pre>  HTML CODE  </pre>
+                 <pre class="language-html"> <code> 
+&lt;div class="butt1"&gt;
+  &lt;a href="#1"&gt;
+   
+   Neon Button
+ &lt;/a&gt;
+ &lt;/div&gt;
+
+ 
+&lt;div class="butt2"&gt;
+ &lt;a href="#"&gt;
+   &lt;span&gt;&lt;/span&gt;
+   &lt;span&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;/span&gt;
+   &lt;span&gt;&lt;/span&gt;  
+   Neon Button
+ &lt;/a&gt;
+&lt;/div&gt;
+         
+
+ &lt;div class="butt3"&gt;
+   &lt;a href="#"&gt;
+     &lt;span&gt;&lt;/span&gt;
+     &lt;span&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;/span&gt;
+     &lt;span&gt;&lt;/span&gt;  
+     Neon Button
+   &lt;/a&gt;
+ &lt;/div&gt;
+                 </code>
+                 </pre>     
+                 <li>Css CODE [SECOND HOVER BUTTON]</li>
+                 <!-- <pre>CSS CODE</pre> -->
+                 <pre class="language-css"  ><code> 
+                   body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+ /* background: #050801; */
+}
+
+.butt1{
+  position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+  margin: 15px 0;
+  color: #03e9f4;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5%;
+  letter-spacing: 4px;
+  background-color: black;
+ 
+}
+.butt1:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+  
+}
+.butt2{
+  position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+  margin: 15px 0;
+  color: #03e9f4;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5%;
+  letter-spacing: 4px;
+  background-color: black;
+ 
+}
+.butt2:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+  
+}
+.butt3{
+  position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+  margin: 15px 0;
+  color: #03e9f4;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5%;
+  letter-spacing: 4px;
+  background-color: black;
+ 
+}
+.butt3:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+  
+}
+                 </code>
+                 </pre>
+              
+
+            <span class=pro>[3] HOVER BUTTON</span>
+            <span>
+              
+    <div class="btn from-top">From Top</div>
+    <div class="btn from-left">From Left</div>
+    <div class="btn from-right">From Right</div>
+    <div class="btn from-center">From Center</div>
+    <div class="btn from-bottom">From Bottom</div>
+            </span>
+
+
+            
+            
+            <li>- IF YOU WANT TO DESIGN AND HOVER YOUR BUTTON LIKE ABOVE ANIMATION-2 THEN COPY BELOW HTML AND CSS CODES AND PASTE IN YOUR SITE.
+             <pre>  HTML CODE  </pre>
+              <pre class="language-html"> <code>
+    &lt;div class="btn from-top"&gt;From Top&lt;/div&gt;
+    &lt;div class="btn from-left"&gt;From Left&lt;/div&gt;
+    &lt;div class="btn from-right"&gt;From Right&lt;/div&gt;
+    &lt;div class="btn from-center"&gt;From Center&lt;/div&gt;
+    &lt;div class="btn from-bottom"&gt;From Bottom&lt;/div&gt;
+    
+              </code></pre>
+            </li>
+            <li>CSS CODE [THIRD HOVER BUTTON]</li>
+            <!-- <pre>CSS CODE</pre> -->
+            <pre class="language-css"  ><code> 
+
+              .btn {		
+                position: relative;	
+                padding: 1.4rem 4.2rem;
+                padding-right: 3.1rem;
+                font-size: 1.4rem;
+                color: var(--inv);
+                letter-spacing: 1.1rem;
+                text-transform: uppercase;
+                transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
+                cursor: pointer;
+                user-select: none;
+              }
+              
+              .btn:before, .btn:after {
+                content: '';
+                position: absolute;	
+                transition: inherit;
+                z-index: -1;
+              }
+              
+              .btn:hover {
+                color: var(--def);
+                transition-delay: .5s;
+              }
+              
+              .btn:hover:before {
+                transition-delay: 0s;
+              }
+              
+              .btn:hover:after {
+                background: var(--inv);
+                transition-delay: .35s;
+              }
+              
+              /* From Top */
+              
+              .from-top:before, 
+              .from-top:after {
+                left: 0;
+                height: 0;
+                width: 100%;
+              }
+              
+              .from-top:before {
+                bottom: 0;	
+                border: 1px solid var(--inv);
+                border-top: 0;
+                border-bottom: 0;
+              }
+              
+              .from-top:after {
+                top: 0;
+                height: 0;
+              }
+              
+              .from-top:hover:before,
+              .from-top:hover:after {
+                height: 100%;
+              }
+              
+              /* From Left */
+              
+              .from-left:before, 
+              .from-left:after {
+                top: 0;
+                width: 0;
+                height: 100%;
+              }
+              
+              .from-left:before {
+                right: 0;
+                border: 1px solid var(--inv);
+                border-left: 0;
+                border-right: 0;	
+              }
+              
+              .from-left:after {
+                left: 0;
+              }
+              
+              .from-left:hover:before,
+              .from-left:hover:after {
+                width: 100%;
+              }
+              
+              /* From Right */
+              
+              .from-right:before, 
+              .from-right:after {
+                top: 0;
+                width: 0;
+                height: 100%;
+              }
+              
+              .from-right:before {
+                left: 0;
+                border: 1px solid var(--inv);
+                border-left: 0;
+                border-right: 0;	
+              }
+              
+              .from-right:after {
+                right: 0;
+              }
+              
+              .from-right:hover:before,
+              .from-right:hover:after {
+                width: 100%;
+              }
+              
+              /* From center */
+              
+              .from-center:before {
+                top: 0;
+                left: 50%;
+                height: 100%;
+                width: 0;
+                border: 1px solid var(--inv);
+                border-left: 0;
+                border-right: 0;
+              }
+              
+              .from-center:after {
+                bottom: 0;
+                left: 0;
+                height: 0;
+                width: 100%;
+                background: var(--inv);
+              }
+              
+              .from-center:hover:before {
+                left: 0;
+                width: 100%;
+              }
+              
+              .from-center:hover:after {
+                top: 0;
+                height: 100%;
+              }
+              
+              /* From Bottom */
+              
+              .from-bottom:before, 
+              .from-bottom:after {
+                left: 0;
+                height: 0;
+                width: 100%;
+              }
+              
+              .from-bottom:before {
+                top: 0;	
+                border: 1px solid var(--inv);
+                border-top: 0;
+                border-bottom: 0;
+              }
+              
+              .from-bottom:after {
+                bottom: 0;
+                height: 0;
+              }
+              
+              .from-bottom:hover:before,
+              .from-bottom:hover:after {
+                height: 100%;
+              }
+              
+              
+              /* ~~~~~~~~~~~~ GLOBAL SETTINGS ~~~~~~~~~~~~ */
+              
+              *, *:before, *:after {
+                box-sizing: border-box;
+              }
+              
+              body {
+                --def: ##000000;  	
+                --inv: ##ec4c0d;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 100vh;
+                width: 100%;
+                background-image: linear-gradient(-25deg, #616161 0%, #96B7C4 100%);
+              }
+              
+              html {
+                font-size: 12px;
+                font-family: 'Playfair Display', serif;
+              }
+              
+              div {margin-bottom: 3rem;}
+              div:last-child {margin-bottom: 0;}
+              
+            </code>
+            </pre>
+
+              <!-- <span class= "logo4"><img src="i5.jpg" alt="image">    </span> -->
+              <!-- <span class=pro>Image 3 ^  </span>     -->
+              <ol>
+              
+         
+      <span class=pro>[4] DESIGN AND HOVER YOUR BUTTON</span>
+       <span>
+        <button class="glow-on-hover" type="button">HOVER ME, THEN CLICK ME!</button>
+       </span>
+      <li> - IF YOU WANT TO DESIGN AND HOVER YOUR BUTTON LIKE ABOVE ANIMATION THEN  COPY BELOW HTML AND CSS CODES AND PASTE IN YOUR SITE. 
+        <PRE>  HTML CODE  </PRE>   
+        <pre class="language-html"> <code>
+&lt;button class="glow-on-hover" type="button"&gt;HOVER ME, THEN CLICK ME!&lt;/button&gt;
+            </code>
+          </pre>
+      </li> 
+      
+      <pre>CSS CODE [FORTH HOVER BUTTON]</pre>
+      <pre class="language-css"  > <code>
+
+ body {
+  margin: 0;
+   padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+      }
+      
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+              }
+      
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300,
+  #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+                     }
+      
+.glow-on-hover:active {
+  color: #000
+                      }
+      
+.glow-on-hover:active:after {
+  background: transparent;
+                            }
+      
+.glow-on-hover:hover:before {
+  opacity: 1;
+       }
+      
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+      }
+      
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+      }
+
+      </code>
+      </pre>
+      <span class=pro>[5] DESIGN AND HOVER YOUR BUTTON</span>
+      <span>
+        <a href="#1">SEND DIRECT
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          
+        </a>
+      </span>
+              
+      <li> - IF YOU WANT TO DESIGN AND HOVER YOUR BUTTON LIKE ABOVE ANIMATION THEN  COPY BELOW HTML AND CSS CODES AND PASTE IN YOUR SITE. 
+        <PRE>  HTML CODE  </PRE>
+        <pre class="language-html"> <code>      &lt;a href="#"&gt;push
+&lt;span&gt;&lt;/span&gt;
+ &lt;span&gt;&lt;/span&gt;
+ &lt;span&gt;&lt;/span&gt;
+ &lt;span&gt;&lt;/span&gt;
+ &lt;/a&gt;
+        </code>
+        </pre>
+        <pre>CSS CODE [FIFTH HOVER BUTTON]</pre>
+        <pre class="language-css"  > <code>
+          * {
+            box-sizing: border-box;
+          }
+          body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* background: #999; */
+          }
+          
+          a {
+            border-radius: 12px;
+            border: 3px outset rgb(189, 37, 37);
+            position: relative;
+            display: inline-block;
+            padding: 15px 30px;
+            color: rgb(25, 218, 112);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            overflow: hidden;
+            
+            box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+            font-family: verdana;
+            font-size: 28px;
+            font-weight: bolder;
+            text-decoration: none;
+            background:linear-gradient(160deg, rgb(163, 36, 36), rgb(223, 41, 41));
+            text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+          
+            transition: 0.2s;
+          
+          }
+          a:active {
+            border: 3px outset rgb(18, 57, 143);
+            color: rgb(0, 0, 0);
+            background: linear-gradient(160deg, rgb(78, 8, 134), #444);
+            text-shadow: 0px 0px 4px #ccc;
+            box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+            transition-delay: 1s;
+          }
+          
+          a span {
+            position: absolute;
+            display: block;
+          }
+          
+          a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #eee);
+          }
+          a:active span:nth-child(1) {
+            left: 100%;
+            transition: 1s;
+          }
+          a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #eee);
+          }
+          a:active span:nth-child(2) {
+            top: 100%;
+            transition: 1s;
+            transition-delay: 0.25s;
+          }
+          a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #eee);
+          }
+          a:active span:nth-child(3) {
+            right: 100%;
+            transition: 1s;
+            transition-delay: 0.5s;
+          }
+          
+          a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #eee);
+          }
+          a:active span:nth-child(4) {
+            bottom: 100%;
+            transition: 1s;
+            transition-delay: 0.75s;
+          }
+             </code>
+        </pre>     
+        <span class=pro>[6] DESIGN AND HOVER YOUR BUTTON</span>
+       
+        <span>
+          <div id="container">
+            <div class="box">
+              <!-- <svg class="logo" viewBox="0 0 690 98.9"> -->
+                <path
+                  d="M615.11 19.15h24.69l.08 75.59c0 .97.79 1.77 1.77 1.77l14.14-.01c.98 0 1.77-.79 1.77-1.77l-.08-75.58h30.96c.91 0 1.43-1.06.85-1.77l-10.6-13.26a4.68 4.68 0 00-3.65-1.76h-59.93c-.98 0-1.77.79-1.77 1.77v13.26c0 .96.79 1.76 1.77 1.76M19.25 94.75L91.67 4.13c.57-.71.06-1.77-.85-1.77H72.71c-1.42 0-2.77.65-3.65 1.76L17.68 68.4V4.12c0-.98-.79-1.77-1.77-1.77H1.77C.79 2.35 0 3.14 0 4.12v90.62c0 .98.79 1.77 1.77 1.77H15.6c1.42 0 2.76-.65 3.65-1.76m51.06 0l24.91-31.17 24.91 31.17a4.685 4.685 0 003.66 1.76h13.83c.98 0 1.77-.79 1.77-1.77V4.12c0-.97-.79-1.77-1.77-1.77h-11.6c-2.84 0-5.53 1.29-7.31 3.51L47.69 94.73c-.57.71-.06 1.77.85 1.77h18.11c1.43.01 2.77-.64 3.66-1.75m51.39-66.21v41.75l-16.68-20.87 16.68-20.88zm404.37 66.19L453.65 4.11A4.68 4.68 0 00450 2.35h-13.84c-.98 0-1.77.79-1.77 1.77v90.62c0 .98.79 1.77 1.77 1.77h13.83c1.42 0 2.77-.65 3.65-1.76l24.91-31.17 24.91 31.17a4.68 4.68 0 003.65 1.76h18.11c.91 0 1.42-1.06.85-1.78m-57.33-45.31L452.05 70.3V28.54l16.69 20.88zM269.45 0c-27.3 0-49.43 22.13-49.43 49.43s22.13 49.43 49.43 49.43 49.43-22.13 49.43-49.43C318.89 22.13 296.75 0 269.45 0m0 82.06c-17.54 0-31.75-14.61-31.75-32.63 0-18.02 14.21-32.64 31.75-32.64S301.2 31.4 301.2 49.43c.01 18.02-14.21 32.63-31.75 32.63M583.38 4.12V68.4L532 4.11a4.68 4.68 0 00-3.65-1.76H514.5c-.97 0-1.77.79-1.77 1.77v43.67c0 1.06.36 2.09 1.03 2.92l14.71 18.41c.65.81 1.95.35 1.95-.68v-38l51.39 64.31a4.68 4.68 0 003.65 1.76h13.83c.98 0 1.77-.79 1.77-1.77V4.12c0-.97-.79-1.77-1.77-1.77h-14.14c-.98 0-1.77.8-1.77 1.77M410.62 23.76V4.12c0-.98-.79-1.77-1.77-1.77h-72.37c-.98 0-1.77.79-1.77 1.77v90.62c0 .98.79 1.77 1.77 1.77h14.14c.98 0 1.77-.79 1.77-1.77V19.16h40.55l-27.37 34.26c-.51.64-.51 1.56 0 2.21l31.27 39.13a4.68 4.68 0 003.65 1.76h18.11c.91 0 1.42-1.06.85-1.77l-32.14-40.21 22.28-27.84c.66-.85 1.03-1.88 1.03-2.94M162.39 96.51h41.96c1.42 0 2.77-.65 3.65-1.76l10.6-13.27c.57-.71.06-1.77-.85-1.77H178.3V4.12c0-.98-.79-1.77-1.77-1.77h-14.14c-.98 0-1.77.79-1.77 1.77v90.62c0 .97.8 1.77 1.77 1.77"
+                ></path>
+              </svg>
+              <div class="betaText">
+                <!-- Am I in the beta? -->
+              </div>
+              <button class="primary5" type="button">
+                <div class="label">
+                  <span class="hover-effect"></span>
+                  <span class="label-text">Primary Button</span>
+                </div>
+              </button>
+              <button class="outline5" type="button">
+                <div class="label">
+                  <span class="hover-effect"></span>
+                  <span class="label-text">Outline Button</span>
+                </div>
+              </button>
+              <button class="outlinered5" type="button">
+                <div class="label">
+                  <span class="hover-effect"></span>
+                  <span class="label-text">Outline Red Button</span>
+                </div>
+              </button>
+            </div>
+          </div>
+        
+        </span>
+        </span>
+        <li> - TO SEE HOVER EFECT PLEASE CLICK ON ABOVE BUTTON. IF YOU WANT TO DESIGN AND HOVER YOUR BUTTON LIKE ABOVE THEN COPY BELOW HTML AND CSS CODES AND PASTE IN YOUR SITE. 
+          <PRE>  HTML CODE  </PRE>
+
+          <pre class="language-html"> <code>
+ &lt;div id="container"&gt;
+    &lt;div class="box"&gt;
+      &lt;!-- &lt;svg class="logo" viewBox="0 0 690 98.9"&gt; --&gt;
+        <!-- &lt;path
+          d="M615.11 19.15h24.69l.08 75.59c0 .97.79 1.77 1.77 1.77l14.14-
+          .01c.98 0 1.77-.79 1.77-1.77l-.08-75.58h30.96c.91 0 1.43-1.06.85
+          -1.77l-10.6-13.26a4.68 4.68 0 00-3.65-1.76h-59.93c-.98 0-1.77.79-1.77
+          1.77v13.26c0 .96.79 1.76 1.77 1.76M19.25 94.75L91.67 4.13c.57-.71.06-1
+          .77-.85-1.77H72.71c-1.42 0-2.77.65-3.65 1.76L17.68 68.4V4.12c0-.98-.79-
+          1.77-1.77-1.77H1.77C.79 2.35 0 3.14 0 4.12v90.62c0 .98.79 1.77 1.77 
+          1.77H15.6c1.42 0 2.76-.65 3.65-1.76m51.06 0l24.91-31.17 24.91 31.17a4.
+          685 4.685 0 003.66 1.76h13.83c.98 0 1.77-.79 1.77-1.77V4.12c0-.97-.79
+          -1.77-1.77-1.77h-11.6c-2.84 0-5.53 1.29-7.31 3.51L47.69 94.73c-.57.71-
+          .06 1.77.85 1.77h18.11c1.43.01 2.77-.64 3.66-1.75m51.39-66.21v41.75l-16
+          .68-20.87 16.68-20.88zm404.37 66.19L453.65 4.11A4.68 4.68 0 00450 2.35h
+          -13.84c-.98 0-1.77.79-1.77 1.77v90.62c0 .98.79 1.77 1.77 1.77h13.83c1.42 
+          0 2.77-.65 3.65-1.76l24.91-31.17 24.91 31.17a4.68 4.68 0 003.65 1.76h18
+          .11c.91 0 1.42-1.06.85-1.78m-57.33-45.31L452.05 70.3V28.54l16.69 20.88zM269
+          .45 0c-27.3 0-49.43 22.13-49.43 49.43s22.13 49.43 49.43 49.43 49.43-22
+          .13 49.43-49.43C318.89 22.13 296.75 0 269.45 0m0 82.06c-17.54 0-31.75-14
+          .61-31.75-32.63 0-18.02 14.21-32.64 31.75-32.64S301.2 31.4 301.2 49.43c.
+          01 18.02-14.21 32.63-31.75 32.63M583.38 4.12V68.4L532 4.11a4.68 4.68 0 
+          00-3.65-1.76H514.5c-.97 0-1.77.79-1.77 1.77v43.67c0 1.06.36 2.09 1.03 
+          2.92l14.71 18.41c.65.81 1.95.35 1.95-.68v-38l51.39 64.31a4.68 4.68 0 
+          003.65 1.76h13.83c.98 0 1.77-.79 1.77-1.77V4.12c0-.97-.79-1.77-1.77-
+          1.77h-14.14c-.98 0-1.77.8-1.77 1.77M410.62 23.76V4.12c0-.98-.79-1.77-1.77
+          -1.77h-72.37c-.98 0-1.77.79-1.77 1.77v90.62c0 .98.79 1.77 1.77 1.77h14.14c
+          .98 0 1.77-.79 1.77-1.77V19.16h40.55l-27.37 34.26c-.51.64-.51 1.56 0 2.21l31
+          .27 39.13a4.68 4.68 0 003.65 1.76h18.11c.91 0 1.42-1.06.85-1.77l-32.14-40
+          .21 22.28-27.84c.66-.85 1.03-1.88 1.03-2.94M162.39 96.51h41.96c1.42 0 2.77-
+          .65 3.65-1.76l10.6-13.27c.57-.71.06-1.77-.85-1.77H178.3V4.12c0-.98-.79-1.77
+          -1.77-1.77h-14.14c-.98 0-1.77.79-1.77 1.77v90.62c0 .97.8 1.77 1.77 1.77"
+        &gt;&lt;/path&gt; -->
+      &lt;/svg&gt;
+      &lt;div class="betaText"&gt;
+        &lt;!-- Am I in the beta? --&gt;
+      &lt;/div&gt;
+      &lt;button class="primary" type="button"&gt;
+        &lt;div class="label"&gt;
+          &lt;span class="hover-effect"&gt;&lt;/span&gt;
+          &lt;span class="label-text"&gt;Primary Button&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/button&gt;
+      &lt;button class="outline" type="button"&gt;
+        &lt;div class="label"&gt;
+          &lt;span class="hover-effect"&gt;&lt;/span&gt;
+          &lt;span class="label-text"&gt;Outline Button&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/button&gt;
+      &lt;button class="outline red" type="button"&gt;
+        &lt;div class="label"&gt;
+          &lt;span class="hover-effect"&gt;&lt;/span&gt;
+          &lt;span class="label-text"&gt;Outline Red Button&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+          </code>
+          </pre> 
+
+          <pre>CSS CODE [SIXTH HOVER BUTTON]</pre>
+          <pre class="language-css"  > <code> 
+@font-face {
+  font-family: "Valorant";
+  src: url("Valorant.otf");
+}
+
+@font-face {
+  font-family: "DIN Next LT Pro Bold";
+  
+}
+
+:root {
+  --v-red: #ec3535;
+  --v-white: #23376e;
+  --v-black: #000000;
+  /* --v-outline: rgba(236, 232, 225, 0.5); */
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 5px;
+  margin: 0;
+  /* background-color: var(--v-black); */
+  color: var(--v-white);
+  font-family: "Valorant";
+  text-rendering: optimizeLegibility;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  width: 50%;
+}
+
+.logo {
+  fill: var(--v-white);
+}
+
+.betaText {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+button {
+  font-family: "DIN Next LT Pro Bold";
+  font-weight: 400;
+  width: 100%;
+  margin-bottom: 3rem;
+  position: relative;
+  display: block;
+  font-size: 1.9rem;
+  padding: 0.7rem;
+  border: 0;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--v-white);
+}
+
+button:hover {
+  color: var(--v-white);
+}
+
+button::before,
+button::after {
+  background-color: transparent;
+  content: "";
+  display: block;
+  position: absolute;
+  height: calc(50% - 0.4rem);
+  width: 100%;
+  border: 1px solid var(--v-outline);
+  left: 0;
+}
+
+button::before {
+  border-bottom: 0;
+  top: 0;
+}
+
+button::after {
+  border-top: 0;
+  bottom: 0;
+}
+
+/* LABEL  */
+.label {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.label:before {
+  content: "";
+  height: 100%;
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+/* Hover Effect */
+.hover-effect {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 120%;
+  top: 0;
+  left: -5%;
+  z-index: 1;
+  background-color: var(--v-red);
+  transform: translateX(-100%) skew(-10deg);
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+button:hover .hover-effect {
+  transform: translateX(0) skew(-10deg);
+}
+
+/* Label Text */
+.label-text {
+  position: relative;
+  display: block;
+  padding: 1.9rem 3rem;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.label-text:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0.6rem;
+  width: 0.6rem;
+  right: 0;
+  bottom: 0;
+  background-color: var(--v-black);
+  transition: background-color 0.2s ease-in;
+}
+button:hover .label-text:after {
+  background-color: var(--v-white);
+}
+/* OUTLINE BUTTON */
+.outline {
+  color: var(--v-white);
+}
+
+.outline .label::before,
+.outline .label::after {
+  border: 1px solid var(--v-outline);
+}
+
+/* OUTLINE RED BUTTON */
+.outline + .red {
+  color: var(--v-red);
+}
+
+.outline + .red:hover {
+  color: var(--v-white);
+}
+
+.outline + .red .label::before,
+.outline + .red .label::after {
+  border-color: var(--v-red);
+}
+/* PRIMARY BUTTON */
+.primary {
+  color: var(--v-black);
+}
+
+.primary .label::before {
+  background-color: var(--v-white);
+}
+</code>
+</pre>
+
+    <span class=pro>[7] DESIGN AND HOVER YOUR BUTTON</span>
+     <span>
+
+      <header>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+     </header>
+     
+     <!-- <h1>Animation Buttons</h1> -->
+     <!-- <p>Hover us and enjoy the satisfying neumorphic animation designs!</p> -->
+     <div class="frame">
+       <!-- <button class="custom-btn btn-1">Read More</button> -->
+       <!-- <button class="custom-btn btn-2">Read More</button> -->
+       <!-- <button class="custom-btn btn-3"><span>Read More</span></button> -->
+       <!-- <button class="custom-btn btn-4"><span>Read More</span></button> -->
+       <button class="custom-btn btn-5"><span>Read More</span></button>
+       <button class="custom-btn btn-6"><span>Read More</span></button>
+       <!-- <button class="custom-btn btn-7"><span>Read More</span></button> -->
+       <!-- <button class="custom-btn btn-8"><span>Read More</span></button> -->
+       <!-- <button class="custom-btn btn-9">Read More</button> -->
+       <!-- <button class="custom-btn btn-10">Read More</button> -->
+       <!-- <button class="custom-btn btn-11">Read More<div class="dot"></div></button> -->
+       <button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+       <!-- <button class="custom-btn btn-13">Read More</button> -->
+       <button class="custom-btn btn-14">Read More</button>
+       <!-- <button class="custom-btn btn-15">Read More</button> -->
+       <!-- <button class="custom-btn btn-16">Read More</button> -->
+       <!-- <p style="font-family: Andale Mono, monospace;">
+         DEERBUCKS.DESIGNING</p> -->
+     </div>
+
+     </span>
+     <li> - TO SEE HOVER EFECT PLEASE CLICK ON ABOVE BUTTON. IF YOU WANT TO DESIGN AND HOVER YOUR BUTTON LIKE ABOVE THEN COPY BELOW HTML AND CSS CODES AND PASTE IN YOUR SITE. 
+      <PRE>  HTML CODE  </PRE>
+      <pre class="language-html"> <code> 
+ &lt;header&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"&gt;
+ &lt;/header&gt;
+ 
+ 
+ &lt;div class="frame"&gt;
+   &lt;button class="custom-btn btn-5"&gt;&lt;span&gt;Read More&lt;/span&gt;&lt;/button&gt;
+   &lt;button class="custom-btn btn-6"&gt;&lt;span&gt;Read More&lt;/span&gt;&lt;/button&gt;
+   &lt;button class="custom-btn btn-12"&gt;&lt;span&gt;Click!&lt;/span&gt;&lt;span&gt;Read More&lt;/span&gt;&lt;/button&gt;
+   &lt;button class="custom-btn btn-14"&gt;Read More&lt;/button&gt;
+ &lt;/div&gt;
+    
+      </code>
+    </pre>
+    <pre>CSS CODE [SEVENTH HOVER BUTTON]</pre>
+    <pre class="language-css"  > <code> 
+body {
+  /* background: #e0e5ec; */
+}
+h1 {
+  position: relative;
+  text-align: center;
+  /* color: #353535; */
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+  color: #676767;
+}
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+.btn-5:hover {
+  color: #f0094a;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #f0094a;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+.btn-6 {
+  background: rgb(247,150,192);
+background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 1px;
+ box-shadow:
+   -1px -1px 20px 0px rgba(255,255,255,1),
+   -4px -4px 5px 0px rgba(255,255,255,1),
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-6:hover{
+  background: transparent;
+  color: #76aef1;
+  box-shadow: none;
+}
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  box-shadow:
+   -1px -1px 20px 0px rgba(255,255,255,1),
+   -4px -4px 5px 0px rgba(255,255,255,1),
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+.btn-6 span:hover:after {
+  width: 100%;
+}
+.btn-12{
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border:none;
+  box-shadow: none;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+.btn-12 span {
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  border-radius: 5px;
+  margin:0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+.btn-14 {
+  background: rgb(255,151,0);
+  border: none;
+  z-index: 1;
+}
+.btn-14:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: #eaf818;
+  background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5);
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-14:hover {
+  color: #000;
+}
+.btn-14:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+.btn-14:active {
+  top: 2px;
+}
+</code>
+</pre>
+
+<span class=pro>[8] DESIGN AND HOVER YOUR BUTTON</span>
+<span>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap" rel="stylesheet">
+
+  <div class='social-links'>
+      <div class='social-btn flex-center' id="twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg><span>twitter</span>
+      </div>
+    
+      <div class='social-btn flex-center' id="linkedin">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg><span>in/</span>
+      </div>
+  
+      <div class='social-btn flex-center' id="github">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg><span>Github</span>
+    </div>
+  </div>
+      
+</span>
+<li> - TO SEE HOVER EFECT PLEASE CLICK ON ABOVE BUTTON. IF YOU WANT TO DESIGN AND HOVER YOUR BUTTON LIKE ABOVE THEN COPY BELOW HTML AND CSS CODES AND PASTE IN YOUR SITE. 
+  <PRE>  HTML CODE  </PRE>
+  <pre class="language-html"> <code> 
+
+    &lt;link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap" rel="stylesheet"&gt;
+
+    &lt;div class='social-links'&gt;
+        &lt;div class='social-btn flex-center' id="twitter"&gt;
+          &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"&gt;&lt;path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/&gt;&lt;/svg&gt;&lt;span&gt;@SquiresChance&lt;/span&gt;
+        &lt;/div&gt;
+      
+        &lt;div class='social-btn flex-center' id="linkedin"&gt;
+          &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"&gt;&lt;path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/&gt;&lt;/svg&gt;&lt;span&gt;in/chancesquires&lt;/span&gt;
+        &lt;/div&gt;
+    
+        &lt;div class='social-btn flex-center' id="github"&gt;
+          &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"&gt;&lt;path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/&gt;&lt;/svg&gt;&lt;span&gt;ChanceSQ&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  </code>
+  </pre>
+
+  <pre>CSS CODE [EIGHTH HOVER BUTTON]</pre>
+    <pre class="language-css"  > <code> 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, .flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  /* background-color: #ffffff; */
+  /* background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); */
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: rgb(135, 198, 214);
+  margin: 5px;
+  transition: 1s;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
+  text-align: center;
+}
+
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: max-content;
+}
+
+#twitter svg {
+  fill: #1da1f2;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: #333;
+}
+
+    </code>
+    </pre>  
+    <span class=pro>[9] DESIGN AND HOVER YOUR BUTTON</span>
+          <span>
+            <div class="glowing">
+     
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Button
+        
+           </div>
+      
+      
+          </span>
+    <li> - TO SEE HOVER EFECT PLEASE CLICK ON ABOVE BUTTON. IF YOU WANT TO DESIGN AND HOVER YOUR BUTTON LIKE ABOVE THEN COPY BELOW HTML AND CSS CODES AND PASTE IN YOUR SITE. 
+      <PRE>  HTML CODE  </PRE>
+      <pre class="language-html"> <code>
+ &lt;div class="glowing"&gt;
+     
+ &lt;span&gt;&lt;/span&gt;
+ &lt;span&gt;&lt;/span&gt;
+ &lt;span&gt;&lt;/span&gt;
+ &lt;span&gt;&lt;/span&gt;
+ Button
+&lt;/div&gt;
+      </code>
+      </pre>
+
+      <pre>CSS CODE [NINTH HOVER BUTTON]</pre>
+      <pre class="language-css"  > <code> 
+        .glowing{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif; 
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b);
+  background-size: 400%;
+  border-radius: 10px;
+  z-index: 1;
+}
+.glowing:hover{
+  animation: animate 8s linear infinite;
+}
+@keyframes animate
+{
+   0%
+   {
+     background-position:0%;
+   }
+   100%
+   {
+     background-position:400%;
+   }
+  }
+  .glowing:before
+  {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b);
+    background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 0.5%;
+  }
+  .glowing:hover:before{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+  }
+</code>
+</pre>
+</span>
+<span class=pro>[10] DESIGN AND HOVER YOUR BUTTON</span>
+ <span>
+   <header>
+     <link href="https://fonts.googleapis.com/css?family=Lato:100&display=swap">
+   </header>
+  <div class="container10">
+    <div class="center10">
+      <button class="btn10">
+        <div width="180px" height="60px" viewBox="0 0 180 60" class="border">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+        </div>
+        <span>HOVER ME</span>
+      </button>
+    </div>
+  </div>
+ </span>
+ 
+  <PRE>  HTML CODE  </PRE>
+  <pre class="language-html"> <code> 
+&lt;div class="container"&gt;
+    &lt;div class="center"&gt;
+      &lt;button class="btn"&gt;
+        &lt;svg width="180px" height="60px" viewBox="0 0 180 60" class="border"&gt;
+          &lt;polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" /&gt;
+          &lt;polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" /&gt;
+        &lt;/svg&gt;
+        &lt;span&gt;HOVER ME&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  </code>
+  </pre>   
+  <pre>CSS CODE [TENTH HOVER BUTTON]</pre>
+      <pre class="language-css"  > <code>
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #5CA4EA;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+         
+</code>
+</pre>
+        </ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+</body>
+</html>

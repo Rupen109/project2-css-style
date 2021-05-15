@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style4.css" rel="stylesheet">
+    <script src="prism.js"></script>  
+    <link rel="stylesheet" href="prism.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <nav> 
+        <div class="content3">
+                    All Type Of Nav Bar
+        </div>
+    </nav>
+    <div class="containerr" >
+        <ol>
+            <span class=promaxnav>[1] </span>
+            <span>
+                 <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div class="relative flex items-center justify-between h-16">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <!--
+                  Icon when menu is closed.
+      
+                  Heroicon name: outline/menu
+      
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <!--
+                  Icon when menu is open.
+      
+                  Heroicon name: outline/x
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex-shrink-0 flex items-center">
+                <!-- <img class="block lg:hidden h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow"> -->
+                <!-- <img class="hidden lg:block h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg" alt="Workflow"> -->
+              </div>
+              <div class="hidden sm:block sm:ml-6">
+                <div class="flex space-x-4">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                  <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Dashboard</a>
+      
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+      
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">My Skills</a>
+
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Know My Projects</a>
+      
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Us</a>
+                </div>
+              </div>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <button class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                <span class="sr-only">View notifications</span>
+                
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                </svg>
+              </button>
+      
+              <!-- Profile dropdown -->
+              <div class="ml-3 relative">
+                <div>
+                  <button type="button" class="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                    <!-- <span class="sr-only">Open user menu</span> -->
+                    <!-- <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""> -->
+                  </button>
+                </div>
+      
+                <!--
+                  Dropdown menu, show/hide based on menu state.
+      
+                  Entering: "transition ease-out duration-100"
+                    From: "transform opacity-0 scale-95"
+                    To: "transform opacity-100 scale-100"
+                  Leaving: "transition ease-in duration-75"
+                    From: "transform opacity-100 scale-100"
+                    To: "transform opacity-0 scale-95"
+                -->
+                <div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                  <!-- Active: "bg-gray-100", Not Active: "" -->
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your-Profile</a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Setting</a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign-out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="px-2 pt-2 pb-3 space-y-1">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Dashboard</a>
+      
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+      
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">My Skills</a>
+      
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
+            
+          </div>
+        </div>
+      </nav>
+            </span>
+            <li> -  IF YOU WANT TO DESIGN YOUR NAV BAR LIKE ABOVE,THEN COPY BELOW CODE AND PASTE IN YOUR SITE. 
+                <pre> CODE  </pre>
+                <pre class="language-html"> <code> 
+                 &lt;nav class="bg-gray-800"&gt;
+    &lt;div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8"&gt;
+      &lt;div class="relative flex items-center justify-between h-16"&gt;
+        &lt;div class="absolute inset-y-0 left-0 flex items-center sm:hidden"&gt;
+          &lt;!-- Mobile menu button--&gt;
+          &lt;button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false"&gt;
+            &lt;span class="sr-only"&gt;Open main menu&lt;/span&gt;
+            &lt;!--
+              Icon when menu is closed.
+  
+              Heroicon name: outline/menu
+  
+              Menu open: "hidden", Menu closed: "block"
+            --&gt;
+            &lt;svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"&gt;
+              &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /&gt;
+            &lt;/svg&gt;
+            &lt;!--
+              Icon when menu is open.
+  
+              Heroicon name: outline/x
+  
+              Menu open: "block", Menu closed: "hidden"
+            --&gt;
+            &lt;svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"&gt;
+              &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /&gt;
+            &lt;/svg&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"&gt;
+          &lt;div class="flex-shrink-0 flex items-center"&gt;
+            &lt;!-- &lt;img class="block lg:hidden h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow"&gt; --&gt;
+            &lt;!-- &lt;img class="hidden lg:block h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg" alt="Workflow"&gt; --&gt;
+          &lt;/div&gt;
+          &lt;div class="hidden sm:block sm:ml-6"&gt;
+            &lt;div class="flex space-x-4"&gt;
+              &lt;!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --&gt;
+              &lt;a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page"&gt;Dashboard&lt;/a&gt;
+  
+              &lt;a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"&gt;Home&lt;/a&gt;
+  
+              &lt;a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"&gt;My Skills&lt;/a&gt;
+
+              &lt;a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"&gt;Know My Projects&lt;/a&gt;
+  
+              &lt;a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"&gt;Contact Us&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"&gt;
+          &lt;button class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"&gt;
+            &lt;span class="sr-only"&gt;View notifications&lt;/span&gt;
+            
+            &lt;svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"&gt;
+              &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /&gt;
+            &lt;/svg&gt;
+          &lt;/button&gt;
+  
+          &lt;!-- Profile dropdown --&gt;
+          &lt;div class="ml-3 relative"&gt;
+            &lt;div&gt;
+              &lt;button type="button" class="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true"&gt;
+                &lt;!-- &lt;span class="sr-only"&gt;Open user menu&lt;/span&gt; --&gt;
+                &lt;!-- &lt;img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""&gt; --&gt;
+              &lt;/button&gt;
+            &lt;/div&gt;
+  
+            &lt;!--
+              Dropdown menu, show/hide based on menu state.
+  
+              Entering: "transition ease-out duration-100"
+                From: "transform opacity-0 scale-95"
+                To: "transform opacity-100 scale-100"
+              Leaving: "transition ease-in duration-75"
+                From: "transform opacity-100 scale-100"
+                To: "transform opacity-0 scale-95"
+            --&gt;
+            &lt;div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1"&gt;
+              &lt;!-- Active: "bg-gray-100", Not Active: "" --&gt;
+              &lt;a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0"&gt;Your Profile&lt;/a&gt;
+              &lt;a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1"&gt;Settings&lt;/a&gt;
+              &lt;a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2"&gt;Sign out&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+    &lt;!-- Mobile menu, show/hide based on menu state. --&gt;
+    &lt;div class="sm:hidden" id="mobile-menu"&gt;
+      &lt;div class="px-2 pt-2 pb-3 space-y-1"&gt;
+        &lt;!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --&gt;
+        &lt;a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page"&gt;Dashboard&lt;/a&gt;
+  
+        &lt;a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"&gt;Home&lt;/a&gt;
+  
+        &lt;a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"&gt;Skills&lt;/a&gt;
+  
+        &lt;a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"&gt;Contact Us&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;       
+                </code>
+                </pre>
+
+        <span class=promaxnav>[2] </span>
+            <span>
+                <header class="text-gray-600 body-font">
+                    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                        <svg xmlns="#" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                        <span class="ml-3 text-xl">Dashboard</span>
+                      </a>
+                      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                        <a class="mr-5 hover:text-gray-900">Home</a>
+                        <a class="mr-5 hover:text-gray-900">Skills</a>
+                        <a class="mr-5 hover:text-gray-900"> Projects</a>
+                        <a class="mr-5 hover:text-gray-900">Contact</a>
+                      </nav>
+                      <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                          <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </header>
+            </span>
+            <li> -  IF YOU WANT TO DESIGN YOUR NAV BAR LIKE ABOVE,THEN COPY BELOW CODE AND PASTE IN YOUR SITE. 
+                <pre>  CODE  </pre>
+                <pre class="language-html"> <code> 
+&lt;header class="text-gray-600 body-font"&gt;
+    &lt;div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"&gt;
+      &lt;a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"&gt;
+        &lt;svg xmlns="#" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24"&gt;
+          &lt;!-- &lt;path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"&gt;&lt;/path&gt; --&gt;
+        &lt;/svg&gt;
+        &lt;span class="ml-3 text-xl"&gt;Dashboard&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;nav class="md:ml-auto flex flex-wrap items-center text-base justify-center"&gt;
+        &lt;a class="mr-5 hover:text-gray-900"&gt;Home&lt;/a&gt;
+        &lt;a class="mr-5 hover:text-gray-900"&gt;My Skills&lt;/a&gt;
+        &lt;a class="mr-5 hover:text-gray-900"&gt;Know My Projects&lt;/a&gt;
+        &lt;a class="mr-5 hover:text-gray-900"&gt;Contact Us&lt;/a&gt;
+      &lt;/nav&gt;
+      &lt;button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"&gt;Button
+        &lt;svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"&gt;
+          &lt;path d="M5 12h14M12 5l7 7-7 7"&gt;&lt;/path&gt;
+        &lt;/svg&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/header&gt;
+                </code>
+                </pre>
+     <span class=promaxnav>[3] </span>
+     <span>
+        <header class="text-gray-400 bg-gray-900 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <svg xmlns="#" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full" viewBox="0 0 24 24">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">Dashboard</span>
+              </a>
+              <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-white">Home</a>
+                <a class="mr-5 hover:text-white">Skills</a>
+                <a class="mr-5 hover:text-white">Projects</a>
+                <a class="mr-5 hover:text-white">Contact</a>
+              </nav>
+              <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+     </span>
+     <li> -  IF YOU WANT TO DESIGN YOUR NAV BAR LIKE ABOVE,THEN COPY BELOW CODE AND PASTE IN YOUR SITE. 
+        <pre>  CODE  </pre>
+        <pre class="language-html"> <code> 
+&lt;header class="text-gray-400 bg-gray-900 body-font"&gt;
+    &lt;div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"&gt;
+      &lt;a class="flex title-font font-medium items-center text-white mb-4 md:mb-0"&gt;
+        &lt;svg xmlns="#" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full" viewBox="0 0 24 24"&gt;
+          &lt;!-- &lt;path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"&gt;&lt;/path&gt; --&gt;
+        &lt;/svg&gt;
+        &lt;span class="ml-3 text-xl"&gt;Dashboard&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center"&gt;
+        &lt;a class="mr-5 hover:text-white"&gt;Home&lt;/a&gt;
+        &lt;a class="mr-5 hover:text-white"&gt;My Skills&lt;/a&gt;
+        &lt;a class="mr-5 hover:text-white"&gt;Know My Projects&lt;/a&gt;
+        &lt;a class="mr-5 hover:text-white"&gt;Contact Us&lt;/a&gt;
+      &lt;/nav&gt;
+      &lt;button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"&gt;Button
+        &lt;svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"&gt;
+          &lt;path d="M5 12h14M12 5l7 7-7 7"&gt;&lt;/path&gt;
+        &lt;/svg&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/header&gt;
+        </code>
+       </pre>
+
+       <span class=promaxnav>[4] </span>
+       <span>
+
+
+        <style>
+            body {margin:0;font-family:Arial}
+            
+            .topnav {
+              overflow: hidden;
+              background-color: #333;
+            }
+            
+            .topnav a {
+              float: left;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+            
+            .active {
+              background-color: #04AA6D;
+              color: white;
+            }
+            
+            .topnav .icon {
+              display: none;
+            }
+            
+            .dropdown {
+              float: left;
+              overflow: hidden;
+            }
+            
+            .dropdown .dropbtn {
+              font-size: 17px;    
+              border: none;
+              outline: none;
+              color: white;
+              padding: 14px 16px;
+              background-color: inherit;
+              font-family: inherit;
+              margin: 0;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content a {
+              float: none;
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }
+            
+            .topnav a:hover, .dropdown:hover .dropbtn {
+              background-color: #555;
+              color: white;
+            }
+            
+            .dropdown-content a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+            
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+            
+            @media screen and (max-width: 600px) {
+              .topnav a:not(:first-child), .dropdown .dropbtn {
+                display: none;
+              }
+              .topnav a.icon {
+                float: right;
+                display: block;
+              }
+            }
+            
+            @media screen and (max-width: 600px) {
+              .topnav.responsive {position: relative;}
+              .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+              }
+              .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+              }
+              .topnav.responsive .dropdown {float: none;}
+              .topnav.responsive .dropdown-content {position: relative;}
+              .topnav.responsive .dropdown .dropbtn {
+                display: block;
+                width: 100%;
+                text-align: left;
+              }
+            }
+            </style>
+         
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <div class="dropdown">
+              <button class="dropbtn">Dropdown 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div> 
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+       </span>
+       <li> -  IF YOU WANT TO DESIGN YOUR NAV BAR LIKE ABOVE,THEN COPY BELOW CODE AND PASTE IN YOUR SITE. 
+        <pre>  CODE  </pre>
+        <pre class="language-html"> <code> 
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
+&lt;style&gt;
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="topnav" id="myTopnav"&gt;
+  &lt;a href="#home" class="active"&gt;Home&lt;/a&gt;
+  &lt;a href="#news"&gt;News&lt;/a&gt;
+  &lt;a href="#contact"&gt;Contact&lt;/a&gt;
+  &lt;div class="dropdown"&gt;
+    &lt;button class="dropbtn"&gt;Dropdown 
+      &lt;i class="fa fa-caret-down"&gt;&lt;/i&gt;
+    &lt;/button&gt;
+    &lt;div class="dropdown-content"&gt;
+      &lt;a href="#"&gt;Link 1&lt;/a&gt;
+      &lt;a href="#"&gt;Link 2&lt;/a&gt;
+      &lt;a href="#"&gt;Link 3&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt; 
+  &lt;a href="#about"&gt;About&lt;/a&gt;
+  &lt;a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"&gt;&#9776;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div style="padding-left:16px"&gt;
+  &lt;h2&gt;Responsive Topnav with Dropdown&lt;/h2&gt;
+  &lt;p&gt;Resize the browser window to see how it works.&lt;/p&gt;
+  &lt;p&gt;Hover over the dropdown button to open the dropdown menu.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+        </code>
+        </pre> 
+   
+        <span class=promaxnav>[5] </span>
+        <span>
+            <header class="text-gray-400 bg-gray-900 body-font">
+                <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                  <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                    <svg xmlns="#" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full" viewBox="0 0 24 24">
+                      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                    <span class="ml-3 text-xl">Dashboard</span>
+                  </a>
+                  <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                    <a class="mr-5 hover:text-white">Home</a>
+                    <a class="mr-5 hover:text-white">My Skills</a>
+                    <a class="mr-5 hover:text-white">Projects</a>
+                    <a class="mr-5 hover:text-white">Contact</a>
+                  </nav>
+                  <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </button>
+                </div>
+              </header>
+        </span>
+        <li> -  IF YOU WANT TO DESIGN YOUR NAV BAR LIKE ABOVE,THEN COPY BELOW CODE AND PASTE IN YOUR SITE. 
+            <pre>  CODE  </pre>
+            <pre class="language-html"> <code> 
+&lt;header class="text-gray-400 bg-gray-900 body-font"&gt;
+    &lt;div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"&gt;
+      &lt;a class="flex title-font font-medium items-center text-white mb-4 md:mb-0"&gt;
+        &lt;svg xmlns="#" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full" viewBox="0 0 24 24"&gt;
+          &lt;!-- &lt;path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"&gt;&lt;/path&gt; --&gt;
+        &lt;/svg&gt;
+        &lt;span class="ml-3 text-xl"&gt;Dashboard&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"&gt;
+        &lt;a class="mr-5 hover:text-white"&gt;Home&lt;/a&gt;
+        &lt;a class="mr-5 hover:text-white"&gt;My Skills&lt;/a&gt;
+        &lt;a class="mr-5 hover:text-white"&gt;Know My Projects&lt;/a&gt;
+        &lt;a class="mr-5 hover:text-white"&gt;Contact Us&lt;/a&gt;
+      &lt;/nav&gt;
+      &lt;button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"&gt;Button
+        &lt;svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"&gt;
+          &lt;path d="M5 12h14M12 5l7 7-7 7"&gt;&lt;/path&gt;
+        &lt;/svg&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/header&gt;
+            </code>
+            </pre>
+    </ol>
+</div>
+
+
+</body>
+</html>
