@@ -7,10 +7,6 @@
   
 }
 
-.html{
-    scroll-behavior:smooth;
-
-}
 
 .navbar{
     display: flex;
@@ -20,6 +16,7 @@
     top: auto;
     cursor: pointer;
     padding: -0.5rem 1rem !important;
+    overflow: hidden;
     
     
     /* position: fixed; */
@@ -30,12 +27,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .logo img{
     width: 33%;
     
     border: 3px snow;
     border-radius: 50px;
+    overflow: hidden;
 }
 
 
@@ -45,22 +44,25 @@
    /* background-color: black; */
    display: flex !important;
    align-items: center !important;
+   overflow: hidden;
 }
 
 
 .nav-list li{
     list-style: none;
     padding: 0px 20px !important;
-
+    overflow: hidden;
 
 }
 .nav-list li a{
     text-decoration: none;
-    color: blanchedalmond;    
+    color: blanchedalmond;  
+    overflow: hidden;  
 }
 
 .nav-list li a:hover{
     color: crimson;
+    overflow: hidden;
 }
 
 
@@ -69,6 +71,7 @@
     background-color: blueviolet;
     width: 30%;
     text-align: right;
+    overflow: hidden;
     
 }
 
@@ -82,9 +85,11 @@
 .background{
     scroll-behavior: smooth;
     background: linear-gradient(180deg, #e4dbdb80, #080808b5), url(img/p7.jpg);
+    background-attachment:  ;
     background-size: cover;
     background-blend-mode: darken;
     text-shadow:4px 4px 6px tomato;
+    overflow: hidden;
 
 }
 
@@ -98,6 +103,7 @@
     /* max-width: 50%; */
     margin: auto;
     /* height: 100%; */
+    overflow: hidden;
     
 }
 
@@ -109,6 +115,7 @@
     justify-content: center;
     align-items: center;
     scroll-behavior: smooth;
+    overflow: hidden;
     
 }
 
@@ -121,6 +128,7 @@
     backdrop-filter: blur(1 px);
     scroll-behavior: smooth;
     margin-left: 150px !important;
+    overflow: hidden;
     /* background:transparent; */
 }
 
@@ -128,6 +136,7 @@
      width:10% ;
      scroll-behavior: smooth;
      display: flex;
+     overflow: hidden;
    
     }
 
@@ -136,6 +145,7 @@
     border: 4px solid white;
     border-radius: 150px;
     scroll-behavior: smooth;
+    overflow: hidden;
     
     /* margin: auto; */
 }
@@ -146,6 +156,7 @@
     font-size: 20px;
     margin-left: 1px !important;
     padding-left: 3px;
+    overflow: hidden;
    
 }
 
@@ -154,12 +165,14 @@
 .text-b{
     font-size: 20px;
     backdrop-filter: blur(3px);
+    overflow: hidden;
     
     
 }
 .text{
     font-size: 20px;
     backdrop-filter: blur(3px);
+    overflow: hidden;
     
    
 }
@@ -167,12 +180,13 @@
 .text-big{
     font-size: 55px;
     text-align: center;
+    overflow: hidden;
 }
 
 .text-small{
     font-size: 25px;
     text-align: center;
-    
+    overflow: hidden;
 
 }
 
@@ -186,6 +200,7 @@
     color: white;
     width: 100%;
     margin: auto; 
+    overflow: hidden;
 }
 
 .background2{
@@ -194,6 +209,7 @@
     font-size: 20px;
     height: 90vh;
     background-size: cover;
+    overflow: hidden;
     /* height: 2px; */
     /* background-color:whitesmoke; */
     
@@ -209,6 +225,7 @@
     flex-direction:column-reverse;
     /* backdrop-filter: blur(70px); */
     font-weight: bold;
+    overflow: hidden;
 
 }
 .note{
@@ -218,14 +235,10 @@
     align-items: center;
     justify-content: center;
     /* margin:2px; */
-    padding: 20px;}
-    
+    padding: 20px;
+    overflow: hidden;
+}
 
-
-    .html{
-        scroll-behavior:smooth;
-    }
-    
    
 /* .thumbnail{
     width: 3000px;
@@ -293,6 +306,7 @@
     position: absolute;
     right: 5%;
     top: 15px;
+    overflow: hidden;
 
 }
 .line{
@@ -300,6 +314,7 @@
     background-color: white;
     height: 4px;
     margin: 5px 3px;
+    overflow: hidden;
 }
 
 /* team sec 1 old */
@@ -357,6 +372,7 @@
 	width: 100%;
 	padding: 30px 0 60px;
     background: #eedeed !important;
+    overflow: hidden;
 }
 #second-section h2{
 	text-align: center;
@@ -364,11 +380,15 @@
 	font-size: 2.4em;
 	color: var(--color-blue);
 	font-family: var(--font);
+  overflow: hidden;
 }
-.all-cheat-sheets{
+
+
+/* .all-cheat-sheets{
 	max-width: 1200px;
     margin-left: 300px;
     display: flex;
+    overflow: hidden;
 }
 .saparate-cheat-sheet:hover{
 	--scale: scale(1.2);
@@ -410,7 +430,7 @@
 .saparate-cheat-sheet a:hover{
 	
 	box-shadow: inset 0px 0px 20px 8px #00000025;
-}
+} */
 
 
 
@@ -418,6 +438,7 @@
 /* team section */
 .containeer{
     margin-left: 300px !important;
+    overflow: hidden;
   }
   
   
@@ -426,6 +447,7 @@
     background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
     background: linear-gradient(to right, #e8cbc0, #636fa4);
     min-height: 100vh;
+    overflow: hidden;
    
   }
   
@@ -440,12 +462,14 @@
     border-radius: 50%;
     transition: all 0.3s;
     font-size: 0.9rem;
+    overflow: hidden;
   }
   
   .social-link:hover, .social-link:focus {
     background: #ddd;
     text-decoration: none;
     color: #555;
+    overflow: hidden;
   }
 
 
@@ -456,17 +480,20 @@
 
   .section_our_solution .row {
     align-items: center;
+    /* overflow: hidden; */
   }
   
   .our_solution_category {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* overflow: hidden; */
   }
   .our_solution_category .solution_cards_box {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
   }
   .solution_cards_box .solution_card {
     flex: 0 50%;
@@ -481,6 +508,7 @@
     overflow: hidden;
     min-height: 265px;
     transition: 0.7s;
+    overflow: hidden;
   }
   
   .solution_cards_box .solution_card:hover {
@@ -488,15 +516,18 @@
     color: #fff;
     transform: scale(1.1);
     z-index: 9;
+    overflow: hidden;
   }
   
   .solution_cards_box .solution_card:hover::before {
     background: rgb(85 108 214 / 10%);
+    overflow: hidden;
   }
   
   .solution_cards_box .solution_card:hover .solu_title h3,
   .solution_cards_box .solution_card:hover .solu_description p {
     color: #fff;
+    overflow: hidden;
   }
   
   .solution_cards_box .solution_card:before {
@@ -510,11 +541,13 @@
     right: -56px;
     top: -23px;
     border-radius: 35px;
+    overflow: hidden;
   }
   
   .solution_cards_box .solution_card:hover .solu_description button {
     background: #fff !important;
     color: #309df0;
+    overflow: hidden;
   }
   
   .solution_card .so_top_icon {
@@ -525,6 +558,7 @@
     font-size: 1.3rem;
     margin-top: 13px;
     margin-bottom: 13px;
+    overflow: hidden;
   }
   
   .solution_card .solu_description p {
@@ -596,30 +630,36 @@
     .sol_card_top_3 {
       position: relative;
       top: 0;
+      overflow: hidden;
     }
   
     .our_solution_category {
       width: 100%;
       margin: 0 auto;
+      overflow: hidden;
     }
   
     .our_solution_category .solution_cards_box {
       flex: auto;
+      overflow: hidden;
     }
   }
   @media only screen and (min-width: 768px) {
     .our_solution_category .solution_cards_box {
       flex: 1;
+      overflow: hidden;
     }
   }
   @media only screen and (min-width: 1024px) {
     .sol_card_top_3 {
       position: relative;
       top: -3rem;
+      overflow: hidden;
     }
     .our_solution_category {
       width: 50%;
       margin: 0 auto;
+      overflow: hidden;
     }
   }
   
@@ -632,11 +672,12 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 40px 0;
+
 }
 .contai .card {
   position: relative;
   width: 300px;
-  height: 400px;
+  height: 350px;
   margin: 20px;
   overflow: hidden;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
@@ -644,6 +685,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 .contai .card .content {
   position: absolute;
@@ -665,6 +707,7 @@
 .contai .card:hover .content {
   bottom: 0;
   transition-delay: 0s;
+
 }
 .contai .card .content .contentBx h3 {
   text-transform: uppercase;
@@ -712,7 +755,103 @@
   font-size: 24px;
 }
 
+/* about us */
 
+.about-section{
+  background: url(img/laptop11.jpg) no-repeat left;
+  background-size: 75%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+
+  /* padding: 100px 0; */
+}
+
+.inner-container{
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px;
+}
+
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.text{
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 90px !important;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  /* background-color: #ffffff; */
+  /* background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); */
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: rgb(135, 198, 214);
+  margin: 5px;
+  transition: 1s;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
+  text-align: center;
+}
+
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: max-content;
+}
+
+#twitter svg {
+  fill: #1da1f2;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: #333;
+}
 
 
 
@@ -734,38 +873,178 @@
 }
 
 
+/* nav2 */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.overplay{
+  width: 0%;
+  height: 100%;
+  background: #0F2B40;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.overlpay.open{
+  width: 100%;
+}
+
+.overplayContent{
+  position: relative;
+  top: 25%;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.overplay a{
+  font-size: 22px;
+  padding-top: 40px;
+  color: #0F2B40;
+  opacity: 0;
+  text-decoration: none;
+  display: block;
+  -webkit-transition: color 0.3s ease 0.3s;
+  transition: color 0.3s ease 0.3s;
+}
+
+.overplay a.open{
+  color: white;
+  opacity: 1;
+}
+
+#nav-icon{
+  width: 60px;
+  height: 45px;
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  right: 20px;
+  -webkit-transform:rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg) scale(0.4);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+#nav-icon span{
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100px;
+  background: #0F2B40;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+
+#nav-icon span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+#nav-icon span:nth-child(2) {
+  top: 18px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+#nav-icon span:nth-child(3){
+  top: 36px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+
+}
+#nav-icon.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -3px;
+  left: 8px;
+  background: white;
+
+}
+#nav-icon.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+  background: white;
+}
+#nav-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 39px;
+  left: 8px;
+  background: white;
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1140px){
     
 *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }   
     
 .nav-list{
         flex-direction: column;
+        overflow: hidden;
     }
 .navbar{
         height: 447px;
         flex-direction: column;
         transition: all 0.5s ease-out;
+        overflow: hidden;
     }
 .rightnav{
     text-align: center;
+    overflow: hidden;
 }
 
 .nav-list li{
     list-style: none;
     padding: 20px 20px !important;
+    overflow: hidden;
 
 
 }
 
 .burger{
         display: block;
+        overflow: hidden;
     }
 
 .boxmain{
         flex-direction: column-reverse;
+        overflow: hidden;
         /* max-width: 100%; */
     }
 
@@ -774,19 +1053,23 @@ width: 71px;
 height: 60px;
 padding:0px;
  margin: 62px;
+ overflow: hidden;
 }
 
 .h-nav{
  height: 72px;
+ overflow: hidden;
 }
 
 .v-class{
 opacity: 0;
+overflow: hidden;
 }
 
 .sectionsubtag{
 flex-direction: column-reverse;
 height:620px ;
+overflow: hidden;
     }
 
 .text-big{
@@ -795,6 +1078,7 @@ width: 450px;
 font-size: 50px;
 margin: -50px;
 padding: 40px;
+overflow: hidden;
     /* height: 0px; */
 
     }
@@ -803,11 +1087,18 @@ height: 405px;
 width: 208px;
 margin: 78px;
 font-size: 25px;
+overflow: hidden;
 }
  
     /* #team sec */
+
+    .card{
+      background-color: #636fa4 ;
+    }
+
     .containeer{
         margin-left: 3px !important;
+        
       }
       
 
@@ -841,6 +1132,35 @@ font-size: 25px;
       }
 
       
+@media screen and (max-width:1200px){
+  .inner-container{
+      padding: 80px;
+      overflow: hidden;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .about-section{
+      background-size: 100%;
+      padding: 100px 40px;
+      overflow: hidden;
+  }
+  .inner-container{
+      width: 100%;
+      overflow: hidden;
+  }
+}
+
+@media screen and (max-width:600px){
+  .about-section{
+      padding: 0;
+      overflow: hidden;
+  }
+  .inner-container{
+      padding: 60px;
+      overflow: hidden;
+  }
+}
     
 
 

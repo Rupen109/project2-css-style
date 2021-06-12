@@ -33,3 +33,13 @@ burger.addEventListener('click',()=>{
         left_container.classList.add("off");
       }
   });
+
+  // <Script>
+  //   $(document).ready(function()  {
+  //     $('#nav-icon').click(function ()) {
+  //       $(this).toggleClass('open');
+  //       $(".overplay a").toggleClass("open");
+  //       $(".overplay a").toggleClass("open");
+  //     });
+  //   });
+  // </Script>
