@@ -763,7 +763,6 @@
   background-color: #fdfdfd;
   overflow: hidden;
 
-  /* padding: 100px 0; */
 }
 
 .inner-container{
@@ -800,6 +799,108 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width:1200px){
+  .inner-container{
+      padding: 80px;
+      overflow: hidden;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .about-section{
+      background-size: 100%;
+      padding: 100px 40px;
+      overflow: hidden;
+  }
+  .inner-container{
+      width: 100%;
+      overflow: hidden;
+  }
+}
+
+@media screen and (max-width:600px){
+  .about-section{
+      padding: 0;
+      overflow: hidden;
+  }
+  .inner-container{
+      padding: 60px;
+      overflow: hidden;
+  }
+}
+
+
+
+
+
+
+
+
+/* link if social media */
+
+.footer-social-links{
+  font-size: 30px;
+text-align: center;
+/* margin-top: 20%; */
+}
+.footer-social-links a{
+  width: 45px;
+  height: 45px;
+  line-height: 25px !important;
+  position: relative;
+  margin: 0 5px;
+  text-align: center;
+  display: inline-block;
+  color: #111;
+  
+  -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+  -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+  -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+  transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+.footer-social-links a i,
+.footer-social-links a span{
+  position: relative;
+  top: 2px;
+  left: 1px; 
+}
+.footer-social-links a:before{
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #111;
+  
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  
+  -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+  -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+  -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+  transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  
+}
+.footer-social-links a:hover{
+  color: #fff;
+}
+.footer-social-links a:hover:before{
+  background: #111;
+}
+
+
+
 
 body {
   height: 100vh;
@@ -870,6 +971,7 @@ body {
     color: rgb(0, 0, 0);
     background: var(--color-blue);
     font-family: var(--font);
+    
 }
 
 
@@ -1011,40 +1113,40 @@ body {
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }   
     
 .nav-list{
         flex-direction: column;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 .navbar{
         height: 447px;
         flex-direction: column;
         transition: all 0.5s ease-out;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 .rightnav{
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .nav-list li{
     list-style: none;
     padding: 20px 20px !important;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 
 }
 
 .burger{
         display: block;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
 .boxmain{
         flex-direction: column-reverse;
-        overflow: hidden;
+        /* overflow: hidden; */
         /* max-width: 100%; */
     }
 
@@ -1053,23 +1155,23 @@ width: 71px;
 height: 60px;
 padding:0px;
  margin: 62px;
- overflow: hidden;
+ /* overflow: hidden; */
 }
 
 .h-nav{
  height: 72px;
- overflow: hidden;
+ /* overflow: hidden; */
 }
 
 .v-class{
 opacity: 0;
-overflow: hidden;
+/* overflow: hidden; */
 }
 
 .sectionsubtag{
 flex-direction: column-reverse;
 height:620px ;
-overflow: hidden;
+/* overflow: hidden; */
     }
 
 .text-big{
@@ -1078,7 +1180,7 @@ width: 450px;
 font-size: 50px;
 margin: -50px;
 padding: 40px;
-overflow: hidden;
+/* overflow: hidden; */
     /* height: 0px; */
 
     }
@@ -1087,7 +1189,7 @@ height: 405px;
 width: 208px;
 margin: 78px;
 font-size: 25px;
-overflow: hidden;
+/* overflow: hidden; */
 }
  
     /* #team sec */
@@ -1135,7 +1237,7 @@ overflow: hidden;
 @media screen and (max-width:1200px){
   .inner-container{
       padding: 80px;
-      overflow: hidden;
+      /* overflow: hidden; */
   }
 }
 
@@ -1143,26 +1245,24 @@ overflow: hidden;
   .about-section{
       background-size: 100%;
       padding: 100px 40px;
-      overflow: hidden;
+      /* overflow: hidden; */
   }
   .inner-container{
       width: 100%;
-      overflow: hidden;
+      /* overflow: hidden; */
   }
 }
 
 @media screen and (max-width:600px){
   .about-section{
       padding: 0;
-      overflow: hidden;
+      /* overflow: hidden; */
   }
   .inner-container{
       padding: 60px;
-      overflow: hidden;
+      /* overflow: hidden; */
   }
 }
     
-
-
 }
 
