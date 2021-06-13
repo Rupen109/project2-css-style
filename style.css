@@ -16,7 +16,7 @@
     top: auto;
     cursor: pointer;
     padding: -0.5rem 1rem !important;
-    overflow: hidden;
+    /* overflow: hidden; */
     
     
     /* position: fixed; */
@@ -27,14 +27,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .logo img{
     width: 33%;
     
     border: 3px snow;
     border-radius: 50px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -44,25 +44,25 @@
    /* background-color: black; */
    display: flex !important;
    align-items: center !important;
-   overflow: hidden;
+   /* overflow: hidden; */
 }
 
 
 .nav-list li{
     list-style: none;
     padding: 0px 20px !important;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 .nav-list li a{
     text-decoration: none;
     color: blanchedalmond;  
-    overflow: hidden;  
+    /* overflow: hidden;   */
 }
 
 .nav-list li a:hover{
     color: crimson;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -71,7 +71,7 @@
     background-color: blueviolet;
     width: 30%;
     text-align: right;
-    overflow: hidden;
+    /* overflow: hidden; */
     
 }
 
@@ -103,7 +103,7 @@
     /* max-width: 50%; */
     margin: auto;
     /* height: 100%; */
-    overflow: hidden;
+    /* overflow: hidden; */
     
 }
 
@@ -115,7 +115,7 @@
     justify-content: center;
     align-items: center;
     scroll-behavior: smooth;
-    overflow: hidden;
+    /* overflow: hidden; */
     
 }
 
@@ -127,7 +127,7 @@
     width: 500px;
     backdrop-filter: blur(1 px);
     scroll-behavior: smooth;
-    margin-left: 150px !important;
+    margin-left: 50px !important;
     overflow: hidden;
     /* background:transparent; */
 }
@@ -136,7 +136,7 @@
      width:10% ;
      scroll-behavior: smooth;
      display: flex;
-     overflow: hidden;
+     /* overflow: hidden; */
    
     }
 
@@ -145,7 +145,7 @@
     border: 4px solid white;
     border-radius: 150px;
     scroll-behavior: smooth;
-    overflow: hidden;
+    /* overflow: hidden; */
     
     /* margin: auto; */
 }
@@ -156,7 +156,7 @@
     font-size: 20px;
     margin-left: 1px !important;
     padding-left: 3px;
-    overflow: hidden;
+    /* overflow: hidden; */
    
 }
 
@@ -165,14 +165,14 @@
 .text-b{
     font-size: 20px;
     backdrop-filter: blur(3px);
-    overflow: hidden;
+    /* overflow: hidden; */
     
     
 }
 .text{
     font-size: 20px;
     backdrop-filter: blur(3px);
-    overflow: hidden;
+    /* overflow: hidden; */
     
    
 }
@@ -180,13 +180,13 @@
 .text-big{
     font-size: 55px;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .text-small{
     font-size: 25px;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
@@ -200,7 +200,7 @@
     color: white;
     width: 100%;
     margin: auto; 
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .background2{
@@ -209,7 +209,7 @@
     font-size: 20px;
     height: 90vh;
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* height: 2px; */
     /* background-color:whitesmoke; */
     
@@ -225,7 +225,7 @@
     flex-direction:column-reverse;
     /* backdrop-filter: blur(70px); */
     font-weight: bold;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 .note{
@@ -236,7 +236,7 @@
     justify-content: center;
     /* margin:2px; */
     padding: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
    
@@ -306,7 +306,7 @@
     position: absolute;
     right: 5%;
     top: 15px;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 .line{
@@ -314,7 +314,7 @@
     background-color: white;
     height: 4px;
     margin: 5px 3px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* team sec 1 old */
@@ -372,7 +372,7 @@
 	width: 100%;
 	padding: 30px 0 60px;
     background: #eedeed !important;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 #second-section h2{
 	text-align: center;
@@ -380,7 +380,7 @@
 	font-size: 2.4em;
 	color: var(--color-blue);
 	font-family: var(--font);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
@@ -438,7 +438,7 @@
 /* team section */
 .containeer{
     margin-left: 300px !important;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   
@@ -447,7 +447,7 @@
     background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
     background: linear-gradient(to right, #e8cbc0, #636fa4);
     min-height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
    
   }
   
@@ -462,14 +462,14 @@
     border-radius: 50%;
     transition: all 0.3s;
     font-size: 0.9rem;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .social-link:hover, .social-link:focus {
     background: #ddd;
     text-decoration: none;
     color: #555;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
 
@@ -493,7 +493,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .solution_cards_box .solution_card {
     flex: 0 50%;
@@ -508,7 +508,7 @@
     overflow: hidden;
     min-height: 265px;
     transition: 0.7s;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .solution_cards_box .solution_card:hover {
@@ -516,18 +516,18 @@
     color: #fff;
     transform: scale(1.1);
     z-index: 9;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .solution_cards_box .solution_card:hover::before {
     background: rgb(85 108 214 / 10%);
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .solution_cards_box .solution_card:hover .solu_title h3,
   .solution_cards_box .solution_card:hover .solu_description p {
     color: #fff;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .solution_cards_box .solution_card:before {
@@ -541,13 +541,13 @@
     right: -56px;
     top: -23px;
     border-radius: 35px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .solution_cards_box .solution_card:hover .solu_description button {
     background: #fff !important;
     color: #309df0;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .solution_card .so_top_icon {
@@ -630,36 +630,36 @@
     .sol_card_top_3 {
       position: relative;
       top: 0;
-      overflow: hidden;
+      /* overflow: hidden; */
     }
   
     .our_solution_category {
       width: 100%;
       margin: 0 auto;
-      overflow: hidden;
+      /* overflow: hidden; */
     }
   
     .our_solution_category .solution_cards_box {
       flex: auto;
-      overflow: hidden;
+      /* overflow: hidden; */
     }
   }
   @media only screen and (min-width: 768px) {
     .our_solution_category .solution_cards_box {
       flex: 1;
-      overflow: hidden;
+      /* overflow: hidden; */
     }
   }
   @media only screen and (min-width: 1024px) {
     .sol_card_top_3 {
       position: relative;
       top: -3rem;
-      overflow: hidden;
+      /* overflow: hidden; */
     }
     .our_solution_category {
       width: 50%;
       margin: 0 auto;
-      overflow: hidden;
+      /* overflow: hidden; */
     }
   }
   
@@ -761,7 +761,7 @@
   background: url(img/laptop11.jpg) no-repeat left;
   background-size: 75%;
   background-color: #fdfdfd;
-  overflow: hidden;
+  /* overflow: hidden; */
 
 }
 
@@ -802,7 +802,7 @@
 @media screen and (max-width:1200px){
   .inner-container{
       padding: 80px;
-      overflow: hidden;
+      /* overflow: hidden; */
   }
 }
 
@@ -810,22 +810,22 @@
   .about-section{
       background-size: 100%;
       padding: 100px 40px;
-      overflow: hidden;
+      /* overflow: hidden; */
   }
   .inner-container{
       width: 100%;
-      overflow: hidden;
+      /* overflow: hidden; */
   }
 }
 
 @media screen and (max-width:600px){
   .about-section{
       padding: 0;
-      overflow: hidden;
+      /* overflow: hidden; */
   }
   .inner-container{
       padding: 60px;
-      overflow: hidden;
+      /* overflow: hidden; */
   }
 }
 
@@ -1113,65 +1113,67 @@ body {
 *{
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
+   
 }   
     
 .nav-list{
         flex-direction: column;
-        /* overflow: hidden; */
+        
     }
 .navbar{
         height: 447px;
         flex-direction: column;
         transition: all 0.5s ease-out;
-        /* overflow: hidden; */
+        
     }
 .rightnav{
     text-align: center;
-    /* overflow: hidden; */
+    
 }
 
 .nav-list li{
     list-style: none;
     padding: 20px 20px !important;
-    /* overflow: hidden; */
+    
 
 
 }
 
 .burger{
         display: block;
-        /* overflow: hidden; */
+        
     }
 
 .boxmain{
         flex-direction: column-reverse;
-        /* overflow: hidden; */
+       
         /* max-width: 100%; */
     }
+
+ 
 
 .secondhalf{
 width: 71px;
 height: 60px;
 padding:0px;
  margin: 62px;
- /* overflow: hidden; */
+
 }
 
 .h-nav{
  height: 72px;
- /* overflow: hidden; */
+ 
 }
 
 .v-class{
 opacity: 0;
-/* overflow: hidden; */
+
 }
 
 .sectionsubtag{
 flex-direction: column-reverse;
 height:620px ;
-/* overflow: hidden; */
+
     }
 
 .text-big{
@@ -1180,16 +1182,14 @@ width: 450px;
 font-size: 50px;
 margin: -50px;
 padding: 40px;
-/* overflow: hidden; */
     /* height: 0px; */
-
-    }
+ }
 .text-small{
 height: 405px;
 width: 208px;
 margin: 78px;
 font-size: 25px;
-/* overflow: hidden; */
+
 }
  
     /* #team sec */
