@@ -278,15 +278,6 @@
     
 } */
 
-
-
-
-
-/* .html{
-    scroll-behavior:smooth;
-} */
-
-     /* ======================================================================= */
 .navbar1{
     color: blue;
 }
@@ -317,55 +308,90 @@
     /* overflow: hidden; */
 }
 
-/* team sec 1 old */
-
-/* h1{
-    font-size: 50px !important;
-    margin-top: 20px;
-    color: crimson;
-    text-align: center;
+@media only screen and (max-width: 1140px){
     
-}
-.contaa1{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: black;
-}
-.card{
-    height: 500px;
-    width: 290px;
-    margin: 20px;
-    box-shadow: 0 3px 5px #000;
-    border-radius: 10px;
-    overflow: hidden;
-    text-align: center;
-    
-
-}
-.card .bg-image img{
-    width: 100%;
-    height: 230px;
-    object-fit: cover;
-    clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 100%, 0 70%);
-}
-.card .pic img{
-    height: 120px;
-    width: 120px;
-    
-    border: 10px solid #222;
-    margin-top: -90px;
-    margin-left: 80px;
+  *{
+      margin: 0;
+      padding: 0;
+     
+  }   
+      
+  .nav-list{
+          flex-direction: column;
+          
+      }
+  .navbar{
+          height: 447px;
+          flex-direction: column;
+          transition: all 0.5s ease-out;
+          
+      }
+  .rightnav{
+      text-align: center;
+      
+  }
   
-    position: relative;
-}
+  .nav-list li{
+      list-style: none;
+      padding: 20px 20px !important;
+      
+  
+  
+  }
+  
+  .burger{
+          display: block;
+          
+      }
+  
+  .boxmain{
+          flex-direction: column-reverse;
+         
+          /* max-width: 100%; */
+      }
+  
+   
+  
+  .secondhalf{
+  width: 71px;
+  height: 60px;
+  padding:0px;
+   margin: 62px;
+  
+  }
+  
+  .h-nav{
+   height: 72px;
+   
+  }
+  
+  .v-class{
+  opacity: 0;
+  
+  }
+  
+  .sectionsubtag{
+  flex-direction: column-reverse;
+  height:620px ;
+  
+      }
+  
+  .text-big{
+    height: 25px;
+    width: 529px;
+    font-size: 55px;
+    margin: -43px;
+    padding: 32px;
 
-.teamsec{
-    background-color: black !important;
-}
-.info{
-    color:white;
-} */
+      /* height: 0px; */
+   }
+  .text-small{
+    height: 437px;
+    width: 202px;
+    margin: 130px;
+    font-size: 24px;
+  
+  }
 
 
 #second-section{
@@ -384,53 +410,6 @@
 }
 
 
-/* .all-cheat-sheets{
-	max-width: 1200px;
-    margin-left: 300px;
-    display: flex;
-    overflow: hidden;
-}
-.saparate-cheat-sheet:hover{
-	--scale: scale(1.2);
-}
-.saparate-cheat-sheet img{
-	padding: 30px;
-	width: 200px;
-	transform: var(--scale);
-}
-.saparate-cheat-sheet{
-    width: 290px;
-    margin: 20px 40px;
-
-	border-radius: 8px; 
-	background: white;
-	overflow: hidden;
-}
-.saparate-cheat-sheet p{
-	text-align: center;
-	width: 100%;
-	color: var(--color-blue);
-	padding: 25px 20px;
-	background: white;
-	font-weight: bold;
-	font-size: 1.3em;
-	font-family: var(--font);
-}
-.saparate-cheat-sheet a{
-	font-family: var(--font);
-	font-size: 1.08em;
-	text-decoration: none;
-	text-align: center;
-	width: 100%;
-	padding: 20px;
-	color: var(--color-blue);
-	background: var(--color-green);
-	cursor: pointer;
-}
-.saparate-cheat-sheet a:hover{
-	
-	box-shadow: inset 0px 0px 20px 8px #00000025;
-} */
 
 
 
@@ -761,7 +740,7 @@
   background: url(img/laptop11.jpg) no-repeat left;
   background-size: 75%;
   background-color: #fdfdfd;
-  /* overflow: hidden; */
+  overflow: hidden;
 
 }
 
