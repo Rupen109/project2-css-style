@@ -184,7 +184,7 @@
 }
 
 .text-small{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     /* overflow: hidden; */
 
@@ -324,7 +324,7 @@
   .navbar{
           height: 447px;
           flex-direction: column;
-          transition: all 1.5s ease-out;
+          transition: all 1s ease-in-out;
           
       }
   .rightnav{
