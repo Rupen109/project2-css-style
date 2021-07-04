@@ -85,10 +85,10 @@
 .background{
     scroll-behavior: smooth;
     background: linear-gradient(180deg, #e4dbdb80, #080808b5), url(img/p7.jpg);
-    background-attachment:  ;
+    /* background-attachment:   */
     background-size: cover;
     background-blend-mode: darken;
-    text-shadow:4px 4px 6px tomato;
+    /* text-shadow:4px 4px 6px tomato; */
     overflow: hidden;
 
 }
@@ -98,7 +98,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: white;
+    color:rgb(236, 255, 252);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* max-width: 50%; */
     margin: auto;
