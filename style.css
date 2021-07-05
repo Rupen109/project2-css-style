@@ -735,6 +735,18 @@
   font-size: 24px;
 }
 
+.add{
+  margin-left: 1000px;
+  padding: 0;  
+}
+
+
+.text-gray-400 bg-gray-900 body-font overflow-hidden{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
 /* about us */
 
 .about-section{
@@ -770,9 +782,10 @@
   display: flex;
   justify-content: space-between;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 20px;
   margin-top: 90px !important;
 }
+
 
 .flex-center {
   display: flex;
@@ -1204,7 +1217,7 @@ font-size: 25px;
         border-radius: 50%;
         transition: all 0.3s;
         font-size: 0.9rem;
-       
+        
       }
       
       .social-link:hover, .social-link:focus {
