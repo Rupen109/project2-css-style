@@ -1,3 +1,14 @@
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
 burger=document.querySelector('.burger')
 navbar=document.querySelector('.navbar')
 navlist=document.querySelector('.nav-list')
@@ -33,6 +44,12 @@ burger.addEventListener('click',()=>{
         left_container.classList.add("off");
       }
   });
+
+  
+
+
+
+
 
   // <Script>
   //   $(document).ready(function()  {
